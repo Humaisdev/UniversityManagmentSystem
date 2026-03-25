@@ -1,0 +1,13 @@
+﻿using UniversityManagementSystem.Model;
+
+namespace UniversityManagmentSystem.Model
+{
+    public class PEOToPLO : BaseModel
+    {
+        public int Weightage { get; set; }
+        public int PEOId { get; set; }
+        public PEO PEO { get; set; }
+        public int PLOId { get; set; }
+        public PLO PLO { get; set; }
+    }
+}
