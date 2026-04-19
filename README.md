@@ -4,7 +4,7 @@ A **console-based University Management System** built with **C# (.NET)** and **
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Student Management** — Add, view, update, and delete student records
 - **Teacher / Faculty Management** — Manage instructor profiles and department assignments
@@ -17,7 +17,7 @@ A **console-based University Management System** built with **C# (.NET)** and **
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -29,7 +29,7 @@ A **console-based University Management System** built with **C# (.NET)** and **
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 UniversityManagmentSystem/
@@ -53,7 +53,7 @@ UniversityManagmentSystem/
 
 ---
 
-## ⚙️ Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -93,7 +93,7 @@ dotnet run --project UniversityManagmentSystem
 
 ---
 
-## 🗄️ Database Schema (Overview)
+## Database Schema (Overview)
 
 ```
 Department
@@ -119,7 +119,7 @@ Enrollment
 
 ---
 
-## 📦 EF Core Commands Reference
+## EF Core Commands Reference
 
 ```bash
 # Add a new migration after model changes
@@ -138,7 +138,7 @@ dotnet ef database update
 
 ---
 
-## 🧪 Sample Code
+## Sample Code
 
 ```csharp
 // Get all students with their enrolled courses
@@ -165,7 +165,7 @@ var courses = context.Courses
 
 ---
 
-## 📌 Roadmap
+## Roadmap
 
 - [x] Student CRUD operations
 - [x] Course & Department management
@@ -179,7 +179,7 @@ var courses = context.Courses
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
@@ -189,13 +189,6 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 4. Push to the branch: `git push origin feature/YourFeature`
 5. Open a Pull Request
 
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
 
 ## 👤 Author
 
